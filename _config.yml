@@ -1,0 +1,38 @@
+highlighter:        pygments
+markdown:           rdiscount
+rdiscount:
+  extensions:       [smart]
+permalink:          /:title.html
+paginate:           5
+gems:               [jekyll-paginate]
+port:               4000
+safe:               true
+url:                http://biomadeira.github.io/vitae
+author:             Fábio Madeira
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl:            /
+title:              Alexander Alexandrov's Homepage
+name:               Alexander Alexandrov
+email:              alexander.alexandrov@tu-berlin.de
+email_full:         mailto:alexander.alexandrov@tu-berlin.de
+website:            aalexandrov.name
+website_full:       https://aalexandrov.name
+github:             aalexandrov
+twitter:            alex_androv
+googleplus:         103877265110606710956
+lastfm:             aalexand
+linkedin:           aalexand
+tel:                +49 30 314 25859
+tel_full:           tel:+493031425859
+google_maps:        'https://www.google.de/maps/place/Institut+f%C3%BCr+Telekommunikationssysteme,+Einsteinufer+17,+10587+Berlin/@52.515208,13.3246818,17z/data=!3m1!4b1!4m2!3m1!1s0x47a85104b5abeb71:0xf2f51c842c89785a'
+address:            Room EN 728, <br /> Einsteinufer 17
+postcode:           10587
+city:               Berlin
+country:            Germany
+google_analytics:   UA-70853231-1
+
+# needed for travis-ci build
+exclude:            [vendor]
