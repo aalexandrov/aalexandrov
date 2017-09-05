@@ -27,6 +27,7 @@
     <header class="four columns">
         <img src="{{ site.baseurl }}static/img/photo_bw_small.jpg" class="me" alt="{{ site.name }} Photo" title="{{ site.name }} Photo">
         <h1>{{ site.name }}</h1>
+        <!--
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
         </p>
@@ -37,18 +38,20 @@
                 {{ site.country }}
             </a>
         </address>
+        -->
         <!--
         <p>
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
         -->
         <ul>
+            <li><a href="{{ site.baseurl }}/assets/pdf/cv.pdf"><i class="fa fa-fw fa-file-text-o"></i> Curriculum Vitae</a></li>
             <!--<a href="{{ site.email_full }}">{{ site.email }}</a><br/> -->
-            <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a></li>
-            <li><a href="https://de.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-            <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-fw fa-github"></i> Github</a></li>
+            <li><a href="https://de.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
             <!--<li><a href="https://plus.google.com/{{ site.googleplus }}"><i class="fa fa-google-plus"></i> Google+</a></li>-->
-            <li><a href="https://www.last.fm/user/{{ site.lastfm }}"><i class="fa fa-lastfm"></i> Last.fm</a></li>
+            <li><a href="https://www.last.fm/user/{{ site.lastfm }}"><i class="fa fa-fw fa-lastfm"></i> Last.fm</a></li>
         </ul>
     </header>
     <div class="twelve columns clearfix">
@@ -70,6 +73,6 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 
-</script>	
+</script>
 </body>
 </html>
